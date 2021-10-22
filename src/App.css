@@ -11,10 +11,13 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+    margin: auto;
+    align-items: center;
+    display: block;
   }
 }
 
-.App-header {
+.h1 {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -25,8 +28,28 @@
   color: white;
 }
 
+.button {
+  align-items: center;
+}
+
+.h2 {
+  background-color: #282c34;
+  font-style: italic;
+  font-size: calc(10px + 2vmin);
+  color: rgb(199, 177, 103);
+  font-size: 15px;
+}
+
+.error-output {
+  margin-left: 10px;
+  font-size: 30px;
+  font-style: italic;
+  color: rgb(199, 177, 103);
+  align-items: center;
+}
+
 .App-link {
-  color: #61dafb;
+  color: #df9331;
 }
 
 @keyframes App-logo-spin {
